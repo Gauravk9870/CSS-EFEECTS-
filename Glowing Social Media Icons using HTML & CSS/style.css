@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(48, 48, 48);
+}
+
+.main .social_media{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:80%;
+    transform: translate(-50%, -50%);
+}
+
+.main .social_media ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.main .social_media ul li{
+    margin: 20px;
+    padding:21px;
+    padding-top: 1px;
+    border-radius:50%;
+    border: 1px solid rgb(92, 92 ,92);
+   
+}
+
+.main ul li .fab{
+    color:rgb(110, 110, 110);
+    margin-top:20px ;
+    transition: all 0.5s ease;
+}
+
+/* Adding hover effects to .social_media icons */
+
+/* Whatsapp */
+.main .social_media ul li:hover.whatsapp{
+    background:rgb(3, 255, 45);
+    box-shadow: 0 0 15px rgb(3, 255, 45);
+    transition: all 0.5s ease;
+    font-size:20px;
+    
+}
+
+.main .social_media ul li:hover .fa-whatsapp{
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+
+/* doing same thing with remaining icons */
+
+/* facebook */
+.main .social_media ul li:hover.facebook{
+    background:rgb(0, 174, 255);
+    box-shadow: 0 0 15px rgb(0, 174, 255);
+    transition: all 0.5s ease;
+    font-size:20px;
+    
+}
+
+.main .social_media ul li:hover .fa-facebook{
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+/* Twitter */
+.main .social_media ul li:hover.twitter{
+    background:rgb(0, 162, 255);
+    box-shadow: 0 0 15px rgb(0, 162, 255);
+    transition: all 0.5s ease;
+    font-size:20px;
+    
+}
+
+.main .social_media ul li:hover .fa-twitter{
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+/* Instagram */
+.main .social_media ul li:hover.instagram{
+    /* gradient background color */
+    background-image: linear-gradient(to right top, #0047ff, #743df6, #a231ec, #c522e0, #e110d3, #f100ba, #fa00a3, #ff028d, #ff316b, #ff5a4b, #ff802b, #ffa200);
+    box-shadow: 0 0 15px rgb(255, 0, 242);
+    transition: all 0.5s ease;
+    font-size:20px;
+    
+}
+
+.main .social_media ul li:hover .fa-instagram{
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+/* Linkedin */
+.main .social_media ul li:hover.linkedin{
+    /* gradient background color */
+    background: rgb(0, 174, 255);
+    box-shadow: 0 0 15px rgb(0, 174, 255);
+    transition: all 0.5s ease;
+    font-size:20px;
+    
+}
+
+.main .social_media ul li:hover .fa-linkedin-in{
+    color:#fff;
+    transition: all 0.5s ease;
+}
+
+
+/* Thanks for watching */
